@@ -44,6 +44,10 @@ ask question and cloudflare ips: [https://t.me/edtunnel](https://t.me/edtunnel)
 
 `aHR0cHM6Ly9vc3MudjJyYXlzZS5jb20vcHJveGllcy9kYXRhLzIwMjMtMDctMzAvRnJFS1lvQS50eHQ=` (free clash.meta subscribe config)
 
+## DoH with Cloudflare
+1. Follow the https://github.com/serverless-dns/serverless-dns .
+2. Replace the dns url with `dohURL` value in `_worker.js` .
+
 ## UUID Setting (Optional)
 
 1. When deploy in cloudflare pages, you can set uuid in `wrangler.toml` file. variable name is `UUID`. `wrangler.toml` file is also supported. (recommended) in case deploy in webpages, you can not set uuid in `wrangler.toml` file.
