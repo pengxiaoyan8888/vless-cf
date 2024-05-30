@@ -14,7 +14,7 @@ let พร็อกซีไอพี = พร็อกซีไอพีs[Math.
 // ipv6 พร็อกซีไอพี example remove comment to use
 // let พร็อกซีไอพี = "[2a01:4f8:c2c:123f:64:5:6810:c55a]"
 
-let dohURL = 'xxx.xxx.workers.dev'; // https://github.com/serverless-dns/serverless-dns
+let dohURL = 'https://freedns.controld.com/p0'; // https://github.com/serverless-dns/serverless-dns OR xxx.xxx.workers.dev [README.md]
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is invalid');
@@ -867,12 +867,12 @@ function สร้างวเลสSub(ไอดีผู้ใช้_เส้
 }
 
 const cn_hostnames = [
-	"account.zula.ir",
-	"zula.com",
-	"telewebion.com",
+	// "account.zula.ir",
+	// "zula.com",
+	// "telewebion.com",
 	'cdn.appsflyer.com',
-	'alibaba.ir',
-	'soft98.ir',
-	'yasdl.com',
-	'uplod.ir',
+	// 'alibaba.ir',
+	// 'soft98.ir',
+	// 'yasdl.com',
+	// 'uplod.ir',
 ];
