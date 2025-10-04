@@ -7,7 +7,7 @@ compatibility_date = "2025-02-24"
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
-# PROXYIP = "cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org','proxyip.cmliussss.net', 'workers.cloudflare.cyou', 'ts.hpc.tw"
+# PROXYIP = "cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'proxyip.cmliussss.net', 'workers.cloudflare.cyou', 'ts.hpc.tw"
 # DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
